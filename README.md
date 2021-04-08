@@ -12,3 +12,40 @@ WHY DID YOU BULID THIS PROJECT?
 WHAT PROBLEMS DOES IT SOLVE?
 WHAT DID YOU LEARN ?
 WHAT MAKES YOUR PROJECT STAND OUT ?
+
+## User Story
+
+```
+AS A coding boot camp student
+I WANT to be able to add my own links in the useful resources
+So THAT I can easily access them when needed.
+
+I WANT to have set reminders of up coming tasks and scheduled activities
+So THAT I'm reminded and don't miss out on anything important.
+
+I WANT the links to the jobs to lead me to the job application
+So THAT I can land on a page where I'm able to easily apply for the jobs.
+
+```
+
+## Acceptance Criteria
+
+```
+
+```
+
+## Wireframe - Bootcamp-Hub - SCREEN #1
+
+![Landing page](./assets/images/useful-resources.png)
+
+
+## Wireframe - Bootcamp-Hub - SCREEN #1
+![Activities page](./assets/images/scheduled-activities.png)
+
+
+## Wireframe - Bootcamp-Hub - SCREEN #1
+![Job page](./assets/images/job-application.png)
+
+
+- - -
+© 2021 Bootcamp students. Confidential and Proprietary. All Rights Reserved.
