@@ -12,8 +12,17 @@ body {
     padding: 1rem 1rem;
 }
 
+.currentDay{
+    font-size: xx-large;
+}
+
 .fab {
     font-size: 100px;
+    color: orangered;
+}
+
+.bg-gradient {
+    background-image: var(--bs-gradient);
 }
 
 .footer-copyright{
