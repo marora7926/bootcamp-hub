@@ -1,5 +1,5 @@
 # bootcamp-hub
-Creating a Project that applies the knowladge of html, css, javascript and Apis to create a responsive website that can help students keep on top of their work and organised.
+Creating a Project that applies the knowladge of html, css, javascript and Api's to create a responsive website that can help students keep on top of their work and organised.
 
 Contributors-
 1. Daniel Pdgett
