@@ -16,7 +16,7 @@ WHAT MAKES YOUR PROJECT STAND OUT ?
 ## User Story
 
 ```
-AS A coding boot camp student
+AS A coding BOOTCAMP STUDENT
 I WANT to be able to add my own links in the useful resources
 So THAT I can easily access them when needed.
 
@@ -34,17 +34,9 @@ So THAT I can land on a page where I'm able to easily apply for the jobs.
 
 ```
 
-## Wireframe - Bootcamp-Hub - SCREEN #1
+## Wireframe - Bootcamp-Hub
 
-![Landing page](./assets/images/useful-resources.png)
-
-
-## Wireframe - Bootcamp-Hub - SCREEN #1
-![Activities page](./assets/images/scheduled-activities.png)
-
-
-## Wireframe - Bootcamp-Hub - SCREEN #1
-![Job page](./assets/images/job-application.png)
+![Bootcamp Hub](./assets/images/wireframe-bootcamp-hub.png)
 
 
 - - -
