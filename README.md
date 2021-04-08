@@ -2,7 +2,7 @@
 Creating a Project that applies the knowladge of html, css, javascript and Api's to create a responsive website that can help students keep on top of their work and organised.
 
 Contributors-
-1. Daniel Pdgett
+1. Daniel Padgett
 2. Jessica Luff
 3. Mohit Arora
 4. Nadja Antonjak 
