@@ -15,6 +15,18 @@ body {
     margin-bottom: 10px;
 }
 
+/* this property include a glow property */
+.fab {
+    font-size: 100px;
+    color: orangered;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {text-shadow: 0 0 10px white, 0 0 20px white, 0 0 30px orangered, 0 0 40px orangered;}
+    to {text-shadow: 0 0 20px white, 0 0 30px yellowgreen, 0 0 40px yellowgreen, 0 0 50px yellowgreen;}
+}
+
 .marquee {
     width: 100%;
     direction: left;
@@ -36,15 +48,6 @@ ul li {
     font-size: xx-large;
 }
 
-.fab {
-    font-size: 100px;
-    color: orangered;
-}
-
-.bg-gradient {
-    background-image: var(--bs-gradient);
-}
-
 .footer-copyright{
     padding: 10px;
     background-color: rgb(235, 224, 224);
@@ -53,5 +56,6 @@ ul li {
 .footer-text{
     color: black;
     font-style: italic;
+    font-weight: bolder;
 }
   
