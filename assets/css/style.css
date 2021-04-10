@@ -1,0 +1,57 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1;
+  }
+
+.jumbotron {
+    text-align:left;
+    background-color: #86dde0;
+    display: inline-flex;
+    width: 100%;
+    color: black;
+    border-bottom: 5px solid black;
+    padding: 1rem 1rem;
+    margin-bottom: 10px;
+}
+
+.marquee {
+    width: 100%;
+    direction: left;
+    height: 40px;
+}
+
+.ticker {
+    display: inline-flex;
+}
+
+ul li {
+    margin-left: 60px;
+    list-style-type:circle;
+    font: 30px;
+    font-weight:bolder;
+}
+
+.currentDay{
+    font-size: xx-large;
+}
+
+.fab {
+    font-size: 100px;
+    color: orangered;
+}
+
+.bg-gradient {
+    background-image: var(--bs-gradient);
+}
+
+.footer-copyright{
+    padding: 10px;
+    background-color: black;
+}
+  
+.footer-text{
+    color: white;
+    font-style: italic;
+}
+  

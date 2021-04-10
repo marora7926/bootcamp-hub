@@ -5,12 +5,162 @@
 		<meta name="viewport" content="width=device-width,
 		initial-scale=1.0">
 		<meta http-equiv="X-UA-compatible" content="ie=edge">
+
+		<!-- bootstrap style sheet -->
+		<link
+		rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		/>
+	  
+		<!-- font awesome style sheet for icons-->
+		<link
+		rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+		crossorigin="anonymous"
+		/>
+	  
+		<!-- google fonts -->
+		<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+		rel="stylesheet"
+		/>
+	  
+		<!-- local style sheet -->
 		<link href="assets/css/style.css" rel="stylesheet">
 		<title>Bootcamp Hub</title>
-        </head>
+    </head>
 
-        <body>
+    <!-- BODY SECTION -->
+	<body>
+		<!-- body header section  -->
+		<header class="jumbotron">
+				<i class="fab fa-hubspot"></i>
+				<h1 class="display-3">Bootcamp Hub</h1>
+				<!-- <hr class="my-3"> -->
+				<p class="lead">A great tool for Bootcamp Students</p>		 
+		</header>
 
-            <script src="assets/js/script.js"></script> 
-        </body>
-        </html>
+		<marquee>
+			<ul class="ticker">
+				<li>
+					<div id="currentDay">
+					</div>
+				</li>
+				<li>
+					<div id="weatherForecast">Placeholder for weather forecast
+					</div>
+				</li>
+				<li>
+					<div id="news">Placeholder for news/tips/others?
+					</div>
+				</li>
+			</ul>
+		</marquee>
+
+		<!-- body main section -->
+		<!-- <div class="container-sm">Small container</div>
+		<div class="container-md">Medium container</div>
+		<div class="container-lg">Large container</div>
+		<div class="container-xxl">Extra-large container</div>
+
+		<div class="container">
+			<div class="row">
+			  <div class="col-sm">
+				Columns 1 of 3 
+			  </div>
+			  <div class="col-sm">
+				Columns 2 of 3
+			  </div>
+			  <div class="col-sm">
+				Columns 3 of 3
+			  </div>
+			</div>
+		</div> -->
+
+		<!-- STYLE #1 -->
+		<div class="p-3 mb-2 bg-primary text-white">HTML Basics</div>
+		<div class="p-3 mb-2 bg-secondary text-white">CSS Basics</div>
+		<div class="p-3 mb-2 bg-success text-white">JavaScript Basics</div>
+		<div class="p-3 mb-2 bg-danger text-white">jQuery Basics</div>
+		<div class="p-3 mb-2 bg-warning text-dark">Server-Side APIs</div>
+		<div class="p-3 mb-2 bg-info text-dark">Third-Party APIs</div>
+		<hr>
+
+		<!-- STYLE #2 -->
+		<div class="card-columns">
+			<div class="card bg-primary">
+			  <div class="card-body text-center">
+				<p class="card-text">HTML Basics</p>
+			  </div>
+			</div>
+			<div class="card bg-warning">
+			  <div class="card-body text-center">
+				<p class="card-text">CSS Basics</p>
+			  </div>
+			</div>
+			<div class="card bg-success">
+			  <div class="card-body text-center">
+				<p class="card-text">JavaScript Basics</p>
+			  </div>
+			</div>
+			<div class="card bg-danger">
+			  <div class="card-body text-center">
+				<p class="card-text">jQuery Basics</p>
+			  </div>
+			</div>
+			<div class="card bg-light">
+			  <div class="card-body text-center">
+				<p class="card-text">Server-Side APIs</p>
+			  </div>
+			</div>
+			<div class="card bg-info">
+			  <div class="card-body text-center">
+				<p class="card-text">Third-Party APIs</p>
+			  </div>
+			</div>
+		</div>
+		<hr>
+
+		<!-- STYLE #3 -->
+		<div class="card-deck">
+			<div class="card bg-primary">
+				<div class="card-body text-center">
+					<p class="card-text">HTML Basics</p>
+					<p class="card-text">a. abc</p>
+					<p class="card-text">b. abc</p>
+					<p class="card-text">c. abc</p>
+				</div>
+			</div>
+			<div class="card bg-warning">
+			  <div class="card-body text-center">
+				<p class="card-text">CSS Basics</p>
+			  </div>
+			</div>
+			<div class="card bg-success">
+			  <div class="card-body text-center">
+				<p class="card-text">JavaScript Basics</p>
+			  </div>
+			</div>
+			<div class="card bg-danger">
+			  <div class="card-body text-center">
+				<p class="card-text">jQuery Basics</p>
+			  </div>
+			</div>
+		</div>
+
+		<!-- body footer section -->
+		<footer class="footer-copyright">
+			<div class="footer-text">© 2021 Daniel Padgett, Jessica Luff, Mohit Arora and Nadja Antonjak</div>
+		</footer>
+    	
+		<!-- jQuery script -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    	<!-- moment js script -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    	<!-- local js file -->
+        <script src="assets/js/script.js"></script> 
+    </body>
+</html>
