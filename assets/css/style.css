@@ -15,12 +15,21 @@ body {
     margin-bottom: 10px;
 }
 
-p {
-    margin-bottom: 0.5rem;
+.marquee {
+    width: 100%;
+    direction: left;
+    height: 40px;
 }
 
-.hr {
-    color: orangered;
+.ticker {
+    display: inline-flex;
+}
+
+ul li {
+    margin-left: 60px;
+    list-style-type:circle;
+    font: 30px;
+    font-weight:bolder;
 }
 
 .currentDay{
