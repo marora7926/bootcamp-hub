@@ -34,13 +34,22 @@
     <!-- BODY SECTION -->
 	<body>
 		<!-- body header section  -->
-		<header class="jumbotron">
-				<i class="fab fa-hubspot"></i>
-				<h1 class="display-3">Bootcamp Hub</h1>
-				<!-- <hr class="my-3"> -->
-				<p class="lead">A great tool for Bootcamp Students</p>		 
-		</header>
-
+		<header class="jumbotron jumbotron-fluid bg-blue text-dark">
+			<div class="container">
+			  <div class="row align-items-end">
+				<div class="col-12 col-md-6">
+				<i class="fab fa-hubspot"><h1>Bootcamp Hub</h1></i>
+				</div>
+		
+				<div class="col-12 col-md-6">
+				  <h2>A great tool for bootcamp student</h2>
+				  <p>Bootcamp Hub is an educational website for learning coding online and searching jobs. Content includes useful links relating to
+					   HTML, CSS, JavaScript, JSON, Bootstrap, jQuery, and APIs.</p>
+				</div>
+			  </div>
+			</div>
+		</header>		
+		
 		<marquee>
 			<ul class="ticker">
 				<li>
@@ -57,97 +66,115 @@
 				</li>
 			</ul>
 		</marquee>
+		
+		<main class="container">
+			<section class="row my-4">
+				<div class="col-12 col-md-3">
+					<h2>Links</h2>
+					<a href="./component_todo-list.html" class="btn btn-block p-3 my-2 btn-info">To-do List</a>
+					<a href="./component_job_search.html" class="btn btn-block p-3 my-2 btn-info">Job Search</a>
+					<a href="./component_feedback.html" class="btn btn-block p-3 my-2 btn-info">Feedback</a>
+			  	</div>
 
-		<!-- body main section -->
-		<!-- <div class="container-sm">Small container</div>
-		<div class="container-md">Medium container</div>
-		<div class="container-lg">Large container</div>
-		<div class="container-xxl">Extra-large container</div>
-
-		<div class="container">
-			<div class="row">
-			  <div class="col-sm">
-				Columns 1 of 3 
-			  </div>
-			  <div class="col-sm">
-				Columns 2 of 3
-			  </div>
-			  <div class="col-sm">
-				Columns 3 of 3
-			  </div>
-			</div>
-		</div> -->
-
-		<!-- STYLE #1 -->
-		<div class="p-3 mb-2 bg-primary text-white">HTML Basics</div>
-		<div class="p-3 mb-2 bg-secondary text-white">CSS Basics</div>
-		<div class="p-3 mb-2 bg-success text-white">JavaScript Basics</div>
-		<div class="p-3 mb-2 bg-danger text-white">jQuery Basics</div>
-		<div class="p-3 mb-2 bg-warning text-dark">Server-Side APIs</div>
-		<div class="p-3 mb-2 bg-info text-dark">Third-Party APIs</div>
-		<hr>
-
-		<!-- STYLE #2 -->
-		<div class="card-columns">
-			<div class="card bg-primary">
-			  <div class="card-body text-center">
-				<p class="card-text">HTML Basics</p>
-			  </div>
-			</div>
-			<div class="card bg-warning">
-			  <div class="card-body text-center">
-				<p class="card-text">CSS Basics</p>
-			  </div>
-			</div>
-			<div class="card bg-success">
-			  <div class="card-body text-center">
-				<p class="card-text">JavaScript Basics</p>
-			  </div>
-			</div>
-			<div class="card bg-danger">
-			  <div class="card-body text-center">
-				<p class="card-text">jQuery Basics</p>
-			  </div>
-			</div>
-			<div class="card bg-light">
-			  <div class="card-body text-center">
-				<p class="card-text">Server-Side APIs</p>
-			  </div>
-			</div>
-			<div class="card bg-info">
-			  <div class="card-body text-center">
-				<p class="card-text">Third-Party APIs</p>
-			  </div>
-			</div>
-		</div>
-		<hr>
-
-		<!-- STYLE #3 -->
-		<div class="card-deck">
-			<div class="card bg-primary">
-				<div class="card-body text-center">
-					<p class="card-text">HTML Basics</p>
-					<p class="card-text">a. abc</p>
-					<p class="card-text">b. abc</p>
-					<p class="card-text">c. abc</p>
+				<div class="col-12 col-md-9">
+					<h2>Useful resources</h2>
+		
+					<section class="row justify-content-around">
+				  		<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+								<h3 class="card-header bg-info text-white">HTML</h3>
+								<div class="card-body">
+									<p class="card-text">
+										<ul>
+											<li><a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">HTML Basics</a></li>
+											<li><a href="https://www.w3schools.com/html/html_elements.asp" target="_blank">HTML Elements</a></li>
+											<li><a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank">HTML Attributes</a></li>
+											<li><a href="https://www.w3schools.com/html/html_headings.asp" target="_blank">HTML Headings</a></li>
+											<li><a href="https://www.w3schools.com/html/html_paragraphs.asp" target="_blank">HTML Paragraphs</a></li>
+											<li><a href="https://www.w3schools.com/html/html_styles.asp" target="_blank">HTML Styles</a></li>
+											<li><a href="https://www.w3schools.com/html/html_formatting.asp" target="_blank">HTML Formatting</a></li>
+											<li><a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">HTML Tables</a></li>
+											<li><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">HTML List</a></li>
+										</ul>
+									</p>
+									<button class="btn btn-block btn-info">Learn more</button>
+								</div>
+							</div>
+				  		</div>
+				  		
+						<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+					  			<h3 class="card-header bg-success text-white">CSS</h3>
+					  			<div class="card-body">
+									<p class="card-text">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo accusantium dolor at, blanditiis rem
+										quisquam ipsam ipsum. Magnam ut quibusdam facilis consequatur veritatis, ullam molestiae, inventore
+										neque, quas obcaecati laborum?
+									</p>
+									<button class="btn btn-block btn-info">Learn more</button>
+					  			</div>
+							</div>
+				  		</div>
+				  		
+						<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+					  			<h3 class="card-header bg-warning text-dark">JavaScript</h3>
+					  			<div class="card-body">
+									<p class="card-text">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo accusantium dolor at, blanditiis rem
+										quisquam ipsam ipsum. Magnam ut quibusdam facilis consequatur veritatis, ullam molestiae, inventore
+										neque, quas obcaecati laborum?
+									</p>
+									<button class="btn btn-block btn-info">Learn more</button>
+					  			</div>
+							</div>
+				  		</div>
+						
+						<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+					  			<h3 class="card-header bg-primary text-white">jQuery</h3>
+					  			<div class="card-body">
+									<p class="card-text">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo accusantium dolor at, blanditiis rem
+										quisquam ipsam ipsum. Magnam ut quibusdam facilis consequatur veritatis, ullam molestiae, inventore
+										neque, quas obcaecati laborum?
+									</p>
+									<button class="btn btn-block btn-info">Learn more</button>
+					  			</div>
+							</div>
+				  		</div>
+						  
+						<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+					  			<h3 class="card-header bg-secondary text-white">Server-Side APIs</h3>
+					  			<div class="card-body">
+									<p class="card-text">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo accusantium dolor at, blanditiis rem
+										quisquam ipsam ipsum. Magnam ut quibusdam facilis consequatur veritatis, ullam molestiae, inventore
+										neque, quas obcaecati laborum?
+									</p>
+									<button class="btn btn-block btn-info">Learn more</button>
+					  			</div>
+							</div>
+				  		</div>
+						  
+						<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+					  			<h3 class="card-header bg-danger text-white">Third-party APIs</h3>
+					  			<div class="card-body">
+									<p class="card-text">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo accusantium dolor at, blanditiis rem
+										quisquam ipsam ipsum. Magnam ut quibusdam facilis consequatur veritatis, ullam molestiae, inventore
+										neque, quas obcaecati laborum?
+									</p>
+									<button class="btn btn-block btn-info">Learn more</button>
+					  			</div>
+							</div>
+				  		</div>
+					</section>
 				</div>
-			</div>
-			<div class="card bg-warning">
-			  <div class="card-body text-center">
-				<p class="card-text">CSS Basics</p>
-			  </div>
-			</div>
-			<div class="card bg-success">
-			  <div class="card-body text-center">
-				<p class="card-text">JavaScript Basics</p>
-			  </div>
-			</div>
-			<div class="card bg-danger">
-			  <div class="card-body text-center">
-				<p class="card-text">jQuery Basics</p>
-			  </div>
-			</div>
-		</div>
+			</section>
+		</main>
 
 		<!-- body footer section -->
 		<footer class="footer-copyright">

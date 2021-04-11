@@ -11,3 +11,7 @@ function displayTime (){
 
 // updating seconds every second
 setInterval(displayTime, 1000);
+
+// add click event --- MOHIT TO FIX THIS
+// <button class="btn btn-block btn-info">Learn more</button>
+// <a href="https://www.w3schools.com/html/default.asp" target="_blank"></a>
