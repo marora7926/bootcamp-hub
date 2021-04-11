@@ -31,21 +31,35 @@ body {
     width: 100%;
     direction: left;
     height: 40px;
+    background-color: rgb(165, 190, 236);
 }
 
 .ticker {
     display: inline-flex;
 }
 
-ul li {
-    margin-left: 60px;
-    list-style-type:circle;
-    font: 30px;
-    font-weight:bolder;
-}
-
 .currentDay{
     font-size: xx-large;
+}
+
+ul {
+    padding-left: 0px !important;
+}
+
+li {
+    margin-left: 30px;
+    padding: 2px;
+    list-style-type: square;
+    font: 30px;
+    font-weight: bolder;
+}
+
+.card-body li:hover {
+    font-size: 20px;
+    color: green !important;
+    transition: all 0.5s ease-in-out;
+    top:-2px;
+    left:-2px;
 }
 
 .footer-copyright{
