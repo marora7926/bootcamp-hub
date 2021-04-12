@@ -21,7 +21,7 @@ var handleFormSubmit = function (event) {
     return;
   }
 
-  printSkills(nameInput, dateInput);
+  printTodos(nameInput, dateInput);
 
   // resets form
   nameInputEl.val('');
