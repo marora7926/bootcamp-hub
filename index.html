@@ -5,12 +5,262 @@
 		<meta name="viewport" content="width=device-width,
 		initial-scale=1.0">
 		<meta http-equiv="X-UA-compatible" content="ie=edge">
+
+		<!-- bootstrap style sheet -->
+		<link
+		rel="stylesheet"
+		href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		/>
+	  
+		<!-- font awesome style sheet for icons-->
+		<link
+		rel="stylesheet"
+		href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+		crossorigin="anonymous"
+		/>
+	  
+		<!-- google fonts -->
+		<link
+		href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+		rel="stylesheet"
+		/>
+	  
+		<!-- local style sheet -->
 		<link href="assets/css/style.css" rel="stylesheet">
 		<title>Bootcamp Hub</title>
-        </head>
+    </head>
 
-        <body>
+    <!-- BODY SECTION -->
+	<body>
+		<!-- body header section  -->
+		<header class="jumbotron jumbotron-fluid bg-blue text-dark">
+			<div class="container">
+			  <div class="row align-items-end">
+				<div class="col-12 col-md-6">
+				<i class="fab fa-hubspot"><h1>Bootcamp Hub</h1></i>
+				</div>
+		
+				<div class="col-12 col-md-6">
+				  <h2>A great tool for bootcamp student</h2>
+				  <p>Bootcamp Hub is an educational website for learning coding, creating your own customised to-do list and searching jobs. Content includes useful links relating to
+					   HTML, CSS, JavaScript, JSON, Bootstrap, jQuery, and APIs.</p>
+				</div>
+			  </div>
+			</div>
+		</header>		
+		
+		<marquee>
+			<ul class="ticker">
+				<li>
+					<div id="currentDay">
+					</div>
+				</li>
+				<li>
+					<div id="weatherForecast">Placeholder for weather forecast
+					</div>
+				</li>
+				<li>
+					<div id="news">Placeholder for news/tips/others?
+					</div>
+				</li>
+			</ul>
+		</marquee>
+		
+		<main class="container">
+			<section class="row my-4">
+				<div class="col-12 col-md-3">
+					<h2>Links</h2>
+					<a href="./component_todo-list.html" class="btn btn-block p-3 my-2 btn-info">To-do List</a>
+					<a href="./component_job_search.html" class="btn btn-block p-3 my-2 btn-info">Job Search</a>
+					<a href="./component_feedback.html" class="btn btn-block p-3 my-2 btn-info">Feedback</a>
+			  	</div>
 
-            <script src="assets/js/script.js"></script> 
-        </body>
-        </html>
+				<div class="col-12 col-md-9">
+					<h2>Useful resources</h2>
+		
+					<section class="row justify-content-around">
+				  		<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+								<h3 class="card-header bg-info text-white">HTML</h3>
+								<div class="card-body">
+									<p class="card-text">
+										<ul>
+											<li><a href="https://www.w3schools.com/html/html_basic.asp" target="_blank">Basics</a></li>
+											<li><a href="https://www.w3schools.com/html/html_elements.asp" target="_blank">Elements</a></li>
+											<li><a href="https://www.w3schools.com/html/html_attributes.asp" target="_blank">Attributes</a></li>
+											<li><a href="https://www.w3schools.com/html/html_headings.asp" target="_blank">Headings</a></li>
+											<li><a href="https://www.w3schools.com/html/html_paragraphs.asp" target="_blank">Paragraphs</a></li>
+											<li><a href="https://www.w3schools.com/html/html_styles.asp" target="_blank">Styles</a></li>
+											<li><a href="https://www.w3schools.com/html/html_formatting.asp" target="_blank">Formatting</a></li>
+											<li><a href="https://www.w3schools.com/html/html_tables.asp" target="_blank">Tables</a></li>
+											<li><a href="https://www.w3schools.com/html/html_lists.asp" target="_blank">List</a></li>
+										</ul>
+									</p>
+									<a href="https://www.w3schools.com/html/default.asp" target="_blank"><button class="btn btn-block btn-info">Learn more</button></a>
+								</div>
+							</div>
+				  		</div>
+				  		
+						<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+					  			<h3 class="card-header bg-success text-white">CSS</h3>
+					  			<div class="card-body">
+									<p class="card-text">
+										<ul>
+											<li><a href="https://www.w3schools.com/css/css_syntax.asp" target="_blank">Syntax</a></li>
+											<li><a href="https://www.w3schools.com/css/css_selectors.asp" target="_blank">Selectors</a></li>
+											<li><a href="https://www.w3schools.com/css/css_colors.asp" target="_blank">Color</a></li>
+											<li><a href="https://www.w3schools.com/css/css_background.asp" target="_blank">Background</a></li>
+											<li><a href="https://www.w3schools.com/css/css_boxmodel.asp" target="_blank">Box Model</a></li>
+											<li><a href="https://www.w3schools.com/css/css_text.asp" target="_blank">Text</a></li>
+											<li><a href="https://www.w3schools.com/css/css_table.asp" target="_blank">Tables</a></li>
+											<li><a href="https://www.w3schools.com/css/css_display_visibility.asp" target="_blank">Display</a></li>
+											<li><a href="https://www.w3schools.com/css/css_positioning.asp" target="_blank">Position</a></li>
+										</ul>
+									</p>
+									<a href="https://www.w3schools.com/css/default.asp" target="_blank"><button class="btn btn-block btn-info">Learn more</button></a>
+					  			</div>
+							</div>
+				  		</div>
+				  		
+						<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+					  			<h3 class="card-header bg-warning text-dark">JavaScript</h3>
+					  			<div class="card-body">
+									<p class="card-text">
+										<ul>
+											<li><a href="https://www.w3schools.com/js/js_syntax.asp" target="_blank">Syntax</a></li>
+											<li><a href="https://www.w3schools.com/js/js_variables.asp" target="_blank">Variables</a></li>
+											<li><a href="https://www.w3schools.com/js/js_datatypes.asp" target="_blank">Data Types</a></li>
+											<li><a href="https://www.w3schools.com/js/js_functions.asp" target="_blank">Functions</a></li>
+											<li><a href="https://www.w3schools.com/js/js_string_methods.asp" target="_blank">Strings<a></li>
+											<li><a href="https://www.w3schools.com/js/js_number_methods.asp" target="_blank">Numbers</a></li>
+											<li><a href="https://www.w3schools.com/js/js_array_methods.asp" target="_blank">Arrays</a></li>
+											<li><a href="https://www.w3schools.com/js/js_math.asp" target="_blank">JS Maths</a></li>
+											<li><a href="https://www.w3schools.com/js/js_math.asp" target="_blank">JS Loop For</a></li>
+										</ul>
+									</p>
+									<a href="https://www.w3schools.com/js/default.asp" target="_blank"><button class="btn btn-block btn-info">Learn more</button></a>
+					  			</div>
+							</div>
+				  		</div>
+						
+						<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+					  			<h3 class="card-header bg-primary text-white">jQuery</h3>
+					  			<div class="card-body">
+									<p class="card-text">
+										<ul>
+											<li><a href="https://www.w3schools.com/jquery/jquery_syntax.asp" target="_blank">Syntax</a></li>
+											<li><a href="https://www.w3schools.com/jquery/jquery_selectors.asp" target="_blank">Selectors</a></li>
+											<li><a href="https://www.w3schools.com/jquery/jquery_events.asp" target="_blank">Events</a></li>
+											<li><a href="https://www.w3schools.com/jquery/jquery_css_classes.asp" target="_blank">Get/Set CSS<a></li>
+											<li><a href="https://www.w3schools.com/jquery/jquery_dom_add.asp" target="_blank">Add Element</a></li>
+											<li><a href="https://www.w3schools.com/jquery/jquery_dom_remove.asp" target="_blank">Remove Element</a></li>
+											<li><a href="https://www.w3schools.com/jquery/jquery_traversing.asp" target="_blank">Traversal</a></li>
+											<li><a href="https://www.w3schools.com/jquery/jquery_traversing_ancestors.asp" target="_blank">Traverse: Ancestors</a></li>
+											<li><a href="https://www.w3schools.com/jquery/jquery_traversing_siblings.asp" target="_blank">Traverse: Siblings</a></li>
+										</ul>
+									</p>
+									<a href="https://www.w3schools.com/jquery/default.asp" target="_blank"><button class="btn btn-block btn-info">Learn more</button></a>
+					  			</div>
+							</div>
+				  		</div>
+						  
+						<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+					  			<h3 class="card-header bg-secondary text-white">Bootstrapping</h3>
+					  			<div class="card-body">
+									<p class="card-text">
+										<ul>
+											<li><a href="https://www.w3schools.com/bootstrap4/bootstrap_containers.asp" target="_blank">BS Containers</a></li>
+											<li><a href="https://www.w3schools.com/bootstrap4/bootstrap_colors.asp" target="_blank">BS Colors</a></li>
+											<li><a href="https://www.w3schools.com/bootstrap4/bootstrap_jumbotron.asp" target="_blank">BS Jumbotron</a></li>
+											<li><a href="https://www.w3schools.com/bootstrap4/bootstrap_buttons.asp" target="_blank">BS Buttons<a></li>
+											<li><a href="https://www.w3schools.com/bootstrap4/bootstrap_cards.asp" target="_blank">BS Cards</a></li>
+											<li><a href="https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp" target="_blank">BS Navbars</a></li>
+											<li><a href="https://www.w3schools.com/bootstrap4/bootstrap_forms.asp" target="_blank">BS Forms</a></li>
+											<li><a href="https://www.w3schools.com/bootstrap4/bootstrap_modal.asp" target="_blank">BS Modals</a></li>
+											<li><a href="https://www.w3schools.com/bootstrap4/bootstrap_utilities.asp" target="_blank">BS Utilities</a></li>
+										</ul>
+									</p>
+									<a href="https://www.w3schools.com/bootstrap4/default.asp" target="_blank"><button class="btn btn-block btn-info">Learn more</button></a>
+					  			</div>
+							</div>
+				  		</div>
+
+						<div class="col-12 col-sm-6 col-lg-4 mb-3">
+							<div class="card">
+					  			<h3 class="card-header bg-danger text-white">APIs</h3>
+					  			<div class="card-body">
+									<p class="card-text">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo accusantium dolor at, blanditiis rem
+										quisquam ipsam ipsum. Magnam ut quibusdam facilis consequatur veritatis, ullam molestiae, inventore
+										neque, quas obcaecati laborum?
+									</p>
+									<a href="https://www.w3schools.com/js/default.asp" target="_blank"><button class="btn btn-block btn-info">Learn more</button></a>
+					  			</div>
+							</div>
+				  		</div>
+					</section>
+					
+					<section class="container my-5">
+						<h2>Other fun things</h2>
+						<div class="row justify-content-center">
+							<div class="col-12 col-sm-8 col-lg-6">
+								<div class="card">
+									<h3 class="card-header bg-dark text-light">Cheat Sheets</h3>
+									<div class="card-body">
+										<p class="card-text">
+											<ul>
+												<li><a href="https://htmlcheatsheet.com/" target="_blank">HTML Cheat Sheet</a></li>
+												<li><a href="https://htmlcheatsheet.com/css/" target="_blank">CSS Cheat Sheet</li>
+												<li><a href="https://htmlcheatsheet.com/js/" target="_blank">JavaScript Cheat Sheet</a></li>
+												<li><a href="https://hackerthemes.com/bootstrap-cheatsheet/#badge-warning" target="_blank">Bootstrap-v4 Cheat Sheet</a></li>
+												<li><a href="https://getbootstrap.com/docs/5.0/examples/cheatsheet/#mdo" target="_blank">Bootstrap-v5 Cheat Sheet</a></li>
+												<li><a href="https://devhints.io/moment" target="_blank">Moment.js Cheat Sheet</a></li>
+												<li><a href="https://htmlcheatsheet.com/jquery/" target="_blank">jQuery Cheat Sheet</a></li>
+											</ul>
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-12 col-sm-8 col-lg-6">
+								<div class="card">
+									<h3 class="card-header bg-dark text-light">Games</h3>
+									<div class="card-body">
+										<p class="card-text">
+											<ul>
+												<li><a href="https://flexboxfroggy.com/" target="_blank">CSS Flexbox: Froggy</a></li>
+												<li><a href="XXX" target="_blank">Game 2 - placeholder<a></li>
+												<li><a href="XXX" target="_blank">Game 3 - placeholder</a></li>
+												<li><a href="XXX" target="_blank">Game 4 - placeholder</a></li>
+												<li><a href="XXX" target="_blank">Game 5 - placeholder</a></li>
+												<li><a href="XXX" target="_blank">Game 6 - placeholder</a></li>
+												<li><a href="XXX" target="_blank">Game 7 - placeholder</a></li>
+											</ul>
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+				</section>
+		</main>
+
+		<!-- body footer section -->
+		<footer class="footer-copyright">
+			<div class="footer-text">© 2021 Daniel Padgett, Jessica Luff, Mohit Arora and Nadja Antonjak</div>
+		</footer>
+    	
+		<!-- jQuery script -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    	<!-- moment js script -->
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+    	<!-- local js file -->
+        <script src="assets/js/script.js"></script> 
+    </body>
+</html>
