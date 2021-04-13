@@ -1,53 +1,85 @@
-var formEl = $('#todo-form');
-var nameInputEl = $('#todo-name');
-var dateInputEl = $('#datepicker');
-var todoListEl = $('#todo-list');
+var todoInput = document.querySelector("#todo-name");
+var todoForm = document.querySelector("#todo-form");
+var todoList = document.querySelector("#todo-list");
+var dateInputEl = document.querySelector("#datepicker");
 
-var printTodos = function (name, date) {
-  var listEl = $('<li>');
-  var listDetail = name.concat(' on ', date);
-  listEl.addClass('list-group-item').text(listDetail);
-    // add delete button to remove shopping list item
-    listEl.append(
-        '<button class="btn btn-danger btn-small delete-item-btn float-right">Remove</button>'
-      );
-  listEl.appendTo(todoListEl);
-};
+var todos = [];
 
-function handleRemoveItem(event) {
-    // convert button we pressed (`event.target`) to a jQuery DOM object
-    var btnClicked = $(event.target);
-  
-    // get the parent `<li>` element from the button we pressed and remove it
-    btnClicked.parent('li').remove();
+// This function reprints the todo list to the wepage
+function renderTodos() {
+  // Clear todoList
+  todoList.innerHTML = "";
+
+  // Append each todo and print to webpage
+  for (var i = 0; i < todos.length; i++) {
+    var todo = todos[i];
+
+    var li = document.createElement("li");
+    li.textContent = todo;
+    li.setAttribute("data-index", i);
+
+    // Add button element that allows clearing of the todo from the list
+    var button = document.createElement("button");
+    button.textContent = "Complete ✔️";
+    //button.style.justifyContent = "flex-end"; this is not working
+
+    li.appendChild(button);
+    todoList.appendChild(li);
   }
-  
-  // use event delegation on the `shoppingListEl` to listen for click on any element with a class of `delete-item-btn`
-  todoListEl.on('click', '.delete-item-btn', handleRemoveItem);
-  //formEl.on('submit', handleFormSubmit);
+}
 
-var handleFormSubmit = function (event) {
+// This function is being called below and will run when the page loads.
+function init() {
+  // Get stored todos from localStorage
+  var storedTodos = JSON.parse(localStorage.getItem("todos"));
+  if (storedTodos !== null) {
+    todos = storedTodos;
+  }
+  renderTodos();
+}
+
+function storeTodos() {
+  // Set to local storage
+  localStorage.setItem("todos", JSON.stringify(todos));
+}
+
+// Processes addition of todo item
+todoForm.addEventListener("submit", function(event) {
   event.preventDefault();
 
-  var nameInput = nameInputEl.val();
-  var dateInput = dateInputEl.val();
+  var todoText = todoInput.value.trim();
+  var todoDate = dateInputEl.value;
+  todoText = todoText.concat(' on ', todoDate);
 
-  if (!nameInput || !dateInput) {
-    console.log('You need to fill out the form!');
+  // Return from function early if submitted todoText is blank
+  if (todoText === "") {
     return;
   }
 
-  printTodos(nameInput, dateInput);
+  // Add next todo to array
+  todos.push(todoText);  
+  // Resets form 
+  dateInputEl.value = "";
+  todoInput.value = "";
 
+  storeTodos();
+  renderTodos();
+});
 
-  //currTodos.name[i], currTodos.date[i]
+// Processes clearing of a todo element with Complete button
+todoList.addEventListener("click", function(event) {
+  var element = event.target;
 
-  // resets form
-  nameInputEl.val('');
-  dateInputEl.val('');
-};
+  // Checks if element is a button
+  if (element.matches("button") === true) {
+    // Retrieves element index and removes that element from the array
+    var index = element.parentElement.getAttribute("data-index");
+    todos.splice(index, 1);
 
-formEl.on('submit', handleFormSubmit);
+    storeTodos();
+    renderTodos();
+  }
+});
 
 // Autocomplete widget
 $(function () {
@@ -72,10 +104,5 @@ $(function () {
   });
 });
 
-/*
-var currTodos = localStorage.getItem("localList");
-for (var i=0; i< currTodos.length; i++){
-    printTodos(currTodos.name[i], currTodos.date[i]);
-}
-*/
-//printTodos(nameInput, dateInput);
+// Intialises page and renders list
+init()
