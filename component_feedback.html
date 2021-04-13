@@ -26,7 +26,7 @@
 
         <main class="d-flex min-vh-80 bg-dark">
             <div class="container-fluid my-auto">
-                <h1 class="display-2 text-center text-light">Feedback Form</h1>
+                <h1 class="display-4 text-center text-light">Feedback Form</h1>
                 <div class="row justify-content-center">
                     <!-- Default Form from Bootstrap -->
                     <div class="col-12 col-md-10 mb-3 p-4 bg-white">
@@ -43,20 +43,25 @@
                             </div>
                             
                             <div class="form-group">
-                            <label for="formControlSelect1">How would you rate this website? (1 = poor to 5 = excellent)</label>
-                            <select class="form-control" id="formControlSelect1">
-                                <option>Select from the dropdown list</option>
-                                <option>1</option>
-                                <option>2</option>
-                                <option>3</option>
-                                <option>4</option>
-                                <option>5</option>
-                            </select>
+                            <label for="formControlSelect1">How would you rate this website?</label>
                             </div>
                             
+                            <div class="rate">
+                                <input type="radio" id="star5" name="rate" value="5" />
+                                <label for="star5" title="text">5 stars</label>
+                                <input type="radio" id="star4" name="rate" value="4" />
+                                <label for="star4" title="text">4 stars</label>
+                                <input type="radio" id="star3" name="rate" value="3" />
+                                <label for="star3" title="text">3 stars</label>
+                                <input type="radio" id="star2" name="rate" value="2" />
+                                <label for="star2" title="text">2 stars</label>
+                                <input type="radio" id="star1" name="rate" value="1" />
+                                <label for="star1" title="text">1 star</label>
+                            </div>
+                                                       
                             <div class="form-group">
-                            <label for="formTextarea1">Your feedback:</label>
-                            <textarea class="form-control" id="formTextarea1" rows="3" placeholder="Type your feedback here"></textarea>
+                                <label for="formTextarea1">Your feedback:</label>
+                                <textarea class="form-control" id="formTextarea1" rows="3" placeholder="Type your feedback here"></textarea>
                             </div>
 
                             <button type="submit" class="btn btn-primary">Submit</button>
