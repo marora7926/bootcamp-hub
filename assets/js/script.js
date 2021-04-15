@@ -12,7 +12,7 @@ function displayTime (){
 // updating seconds every second
 setInterval(displayTime, 1000);
 
-// API for random quotes
+// API for inspirational quotes
 const url = "https://api.quotable.io/random";
 function generateQuote(){
    fetch(url)
@@ -26,5 +26,4 @@ function generateQuote(){
     console.log(err); 
     });
  }
- setInterval(generateQuote() ,1000);
- 
+ setInterval(generateQuote() ,1000); 
