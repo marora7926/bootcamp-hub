@@ -1,7 +1,9 @@
+README
+
 # bootcamp-hub
 Creating a Project that applies the knowladge of html, css, javascript and Api's to create a responsive website that can help students keep on top of their work and organised.
 
-Contributors-
+Project team-
 1. Daniel Padgett
 2. Jessica Luff
 3. Mohit Arora
@@ -33,11 +35,29 @@ So THAT I can land on a page where I'm able to easily apply for the jobs.
 ```
 
 ```
+## Deployed link
+
+https://marora7926.github.io/bootcamp-hub/
 
 ## Wireframe - Bootcamp-Hub
 
 ![Bootcamp Hub](./assets/images/wireframe-bootcamp-hub.png)
 
+## Screenshot - Landing page
+
+![Screenshot-Landing-page](./assets/images/landing page.png)
+
+## Screenshot - To-do list page
+
+![Screenshot-todo-page](./assets/images/todo-page.png)
+
+## Screenshot - Job Search page
+
+![Screenshot-job-search-page](./assets/images/job-search-page.png)
+
+## Screenshot - Feebback page
+
+![Screenshot-feedback-pa](./assets/images/Feedback-page.png)
 
 - - -
-© 2021 Bootcamp students. Confidential and Proprietary. All Rights Reserved.
+© 2021 Bootcamp students. Confidential and Proprietary. All Rights Reserved
