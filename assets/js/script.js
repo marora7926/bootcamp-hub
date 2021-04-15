@@ -12,7 +12,7 @@ function displayTime (){
 // updating seconds every second
 setInterval(displayTime, 1000);
 
-
+// API for random quotes
 const url = "https://api.quotable.io/random";
 function generateQuote(){
    fetch(url)
@@ -20,7 +20,7 @@ function generateQuote(){
          return data.json();
     })
     .then(function(data){    
-    document.getElementById("quote").innerHTML = data.content;
+    document.getElementById("quote").innerHTML = "Inspirational quote: " + data.content;
    })
  .catch(function(err) {
     console.log(err); 
@@ -28,10 +28,3 @@ function generateQuote(){
  }
  setInterval(generateQuote() ,1000);
  
-// add click event --- MOHIT TO FIX THIS
-// <button class="btn btn-block btn-info">Learn more</button>
-// <a href="https://www.w3schools.com/html/default.asp" target="_blank"></a>
-// CSS : https://www.w3schools.com/css/default.asp
-// JS: https://www.w3schools.com/js/default.asp
-// jQuery: https://www.w3schools.com/jquery/default.asp
-// Bootstrap: https://www.w3schools.com/bootstrap4/default.asp
