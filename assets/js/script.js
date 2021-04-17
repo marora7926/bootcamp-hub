@@ -48,7 +48,7 @@ var getCurrentConditions = (event) => {
     })
     .then((response) => {
         let currentWeatherIcon="https://openweathermap.org/img/w/" + response.weather[0].icon + ".png";
-        let currentWeatherHTML = `Current weather: ${response.main.temp}&#8451; <img src="${currentWeatherIcon}">`;
+        let currentWeatherHTML = `Sydney's Current weather: ${response.main.temp}&#8451; <img src="${currentWeatherIcon}">`;
         $('#weatherForecast').html(currentWeatherHTML);
     })
 }
