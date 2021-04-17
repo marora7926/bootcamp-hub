@@ -28,7 +28,7 @@ This project was designed and developed in order to help Bootcamp users stay org
 ## WHAT PROBLEMS DOES IT SOLVE?
 
 ```
-Our project helps keep users organised and on track with their work as well as future and current life goals. The quick links provided make it easy for users to access important sources which are used by web developers daily. This saves time from constantly having to search links up in the web individually as it quickly directs you to what you after by clicking one simple link. A job search is also put in place to save hassle of not knowing what to search for. Our job search provides users with open jobs that match qualifications to our course and what jobs users would be strong candidates for.
+Our project helps keep users organised, on track and motivated in current time as well as in future helping achieve future life goals. The quick links provided make it easy for users to access important sources which are used by web developers daily. This saves time from constantly having to search links up in the web individually as it quickly directs you to what you are after by clicking one simple link. A Inspirational Quotes section is also put in place to inspire users through any other hardships they are facing in life, we all know everyone needs a little boost to get going at times. A To-Do-List is provided for users to acess. Creating a list will showcase users with what needs to be completed, leaving them satisfied once completing their set goals. Aswell as this the website provides many other links to sources such as games and cheats to certain codes in order to provide support to users in their learning and development, hopefully helping them excel in all aspects.
 ```
 
 ## WHAT DID YOU LEARN ?
