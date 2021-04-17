@@ -14,25 +14,31 @@ Project team-
 ## WHAT WAS YOUR MOTIVATION ?
 
 ```
-
+The strong teamwork between our group is what motivated everyone in the group throughout the whole assignment. Being supportive of one another and learning off each other was an extremely rewarding part of this project. We could rely on each other and always knew that if we did not understand a particular thing or needed guidance that we were not alone and could depend on each other.
 
 ```
 
 ## WHY DID YOU BULID THIS PROJECT?
 
 ```
+This project was designed and developed in order to help Bootcamp users stay organised and on top of important work, as well as being able to seek employment once completing the course. We worked together as a team to combine our skills and passions for different parts of the project to showcase our result.
 
 ```
 
 ## WHAT PROBLEMS DOES IT SOLVE?
 
 ```
-
+Our project helps keep users organised and on track with their work as well as future and current life goals. The quick links provided make it easy for users to access important sources which are used by web developers daily. This saves time from constantly having to search links up in the web individually as it quickly directs you to what you after by clicking one simple link. A job search is also put in place to save hassle of not knowing what to search for. Our job search provides users with open jobs that match qualifications to our course and what jobs users would be strong candidates for.
 ```
 
 ## WHAT DID YOU LEARN ?
 
 ```
+Throughout this project along with implementing and advancing skills we learnt in class, we believe the most important thing we learnt was how to complete the project together as a team. 
+Working in a team abled us to learn how to 
+-Each put out issues and assign different parts of our project to different contributor. 
+-Each contributor creating their own branch and requesting pulls.
+-How to approve work done by different contributors, resulting in their work being approved and pushed up to main branch.
 
 ```
 
