@@ -1,6 +1,6 @@
 README
 
-# bootcamp-hub
+# Bootcamp-hub
 Creating a Project that applies the knowladge of html, css, javascript and Api's to create a responsive website that can help students keep on top of their work and organised.
 
 Project team-
