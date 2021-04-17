@@ -14,7 +14,7 @@ Project team-
 ## WHAT WAS YOUR MOTIVATION ?
 
 ```
-The strong teamwork between our group is what motivated everyone in the group throughout the whole assignment. Being supportive of one another and learning off each other was an extremely rewarding part of this project. We could rely on each other and always knew that if we did not understand a particular thing or needed guidance that we were not alone and could depend on each other.
+The strong teamwork between our group is what motivated everyone in the group throughout the whole of Project-1. Being supportive of one another and learning off each other was an extremely rewarding part of this project. We could rely on each other and always knew that if we did not understand a particular thing or needed guidance that we were not alone and could depend on each other.
 
 ```
 
