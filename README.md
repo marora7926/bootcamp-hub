@@ -15,6 +15,7 @@ Project team-
 
 ```
 
+
 ```
 
 ## WHY DID YOU BULID THIS PROJECT?
@@ -44,21 +45,33 @@ Project team-
 ## User Story
 
 ```
-AS A coding BOOTCAMP STUDENT
-I WANT to be able to add my own links in the useful resources
-So THAT I can easily access them when needed.
 
-I WANT to have set reminders of up coming tasks and scheduled activities
-So THAT I'm reminded and don't miss out on anything important.
-
-I WANT the links to the jobs to lead me to the job application
-So THAT I can land on a page where I'm able to easily apply for the jobs.
+AS AN Bootcamp student with access to Bootcamp hub Website
+I WANT to access a useful website that meets criteria for different skills, where I can access updated date, time and weather report and apply for upcoming job ventures.
+ In addition, supplying me with useful resources and providing me with quick link access to them if needed. As well as allowing me to develop a personal to-do-list in order to keep on track and on top of my work and opportunity to access other fun activities such as games and/or cheats I find to be beneficial to my learning.
+SO I CAN stay organised with my work, progressing me further with my course and helping me stay on track to becoming successful.
 
 ```
 
 ## Acceptance Criteria
 
 ```
+GIVEN an educational website for staying organised, advancing skills and strengthening existing knowledge of content learnt throughout the Bootcamp Course.
+WHEN I land on Bootcamp Hub website,
+THEN I am presented with todays date, time and current weather forecast, Links to JOB SEARCH, TO-DO LIST and FEEDBACK. As well as Useful resources and other fun thins including cheat sheets and games.
+WHEN I click TO-DO LIST BUTTON,
+THEN
+WHEN I click JOB SEARCH BUTTON,
+THEN
+WHEN I click FEEDBACK BUTTON,
+THEN I am presented with a feedback form, where I can provide my feedback about the website and provide it with a star rating.
+WHEN I click each LINK under USEFUL RESOURCES,
+THEN I am re-directed to a relevant webpage for that link, in a new window to access the useful resources provided.
+WHEN I click on CHEAT SHEET LINKS,
+THEN I am redirected to different web pages supplying me with cheat codes that could be beneficial to understanding the content.
+WHEN I click on GAMES LINKS
+THEN I am redirected to different games I can play to practice and advance my skills while effectively helping me repeat and understand content.
+
 
 ```
 ## Deployed link
