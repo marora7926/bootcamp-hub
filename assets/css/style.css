@@ -37,10 +37,14 @@ body {
     display: inline-flex;
 }
 
-.currentDay
-.weatherForecast
-.quote {
-    font: 20px;
+#weatherForecast {
+    position: relative;
+    padding-right: 50px;
+}
+
+.img {
+    position: absolute;
+    top: -15px;
 }
 
 ul {

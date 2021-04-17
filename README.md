@@ -4,16 +4,42 @@ README
 Creating a Project that applies the knowladge of html, css, javascript and Api's to create a responsive website that can help students keep on top of their work and organised.
 
 Project team-
-1. Daniel Padgett
-2. Jessica Luff
-3. Mohit Arora
-4. Nadja Antonjak 
 
-WHAT WAS YOUR MOTIVATION ?
-WHY DID YOU BULID THIS PROJECT?
-WHAT PROBLEMS DOES IT SOLVE?
-WHAT DID YOU LEARN ?
-WHAT MAKES YOUR PROJECT STAND OUT ?
+1. [Daniel Padgett](https://github.com/danpadge16)
+2. [Jessica Luff](https://github.com/JessLuff)
+3. [Mohit Arora](https://github.com/marora7926)
+4. [Nadja Antonjak](https://github.com/nadjaantonjak)
+
+
+## WHAT WAS YOUR MOTIVATION ?
+
+```
+
+```
+
+## WHY DID YOU BULID THIS PROJECT?
+
+```
+
+```
+
+## WHAT PROBLEMS DOES IT SOLVE?
+
+```
+
+```
+
+## WHAT DID YOU LEARN ?
+
+```
+
+```
+
+## WHAT MAKES YOUR PROJECT STAND OUT ?
+
+```
+
+```
 
 ## User Story
 
@@ -45,7 +71,7 @@ https://marora7926.github.io/bootcamp-hub/
 
 ## Screenshot - Landing page
 
-![Screenshot-Landing-page](./assets/images/landing page.png)
+![Screenshot-Landing-page](./assets/images/landing-page.png)
 
 ## Screenshot - To-do list page
 
@@ -57,7 +83,7 @@ https://marora7926.github.io/bootcamp-hub/
 
 ## Screenshot - Feebback page
 
-![Screenshot-feedback-pa](./assets/images/Feedback-page.png)
+![Screenshot-feedback-pa](./assets/images/feedback-page.png)
 
 - - -
 © 2021 Bootcamp students. Confidential and Proprietary. All Rights Reserved
