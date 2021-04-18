@@ -51,6 +51,7 @@ We believe our Project-1 (Bootcamp-Hub) is set to stand out due to the clear and
 ## User Story
 
 ```
+=======
 
 AS AN Bootcamp student with access to Bootcamp hub Website
 I WANT to access a useful website that meets criteria for different skills, where I can access updated date, time and weather report and apply for upcoming job ventures.
@@ -94,13 +95,17 @@ https://marora7926.github.io/bootcamp-hub/
 
 ![Screenshot-todo-page](./assets/images/todo-page.png)
 
+## Screenshot - Feedback page
+
+![Screenshot-feedback-page](./assets/images/feedback-page.png)
+
 ## Screenshot - Job Search page
 
 ![Screenshot-job-search-page](./assets/images/job-search-page.png)
 
-## Screenshot - Feebback page
+## Screenshot - Student blog page
 
-![Screenshot-feedback-pa](./assets/images/feedback-page.png)
+![Screenshot-Student-blog-page](./assets/images/student_blog-page.png)
 
 - - -
 © 2021 Bootcamp students. Confidential and Proprietary. All Rights Reserved
