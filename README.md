@@ -64,11 +64,9 @@ SO I CAN stay organised with my work, progressing me further with my course and 
 ```
 GIVEN an educational website for staying organised, advancing skills and strengthening existing knowledge of content learnt throughout the Bootcamp Course.
 WHEN I land on Bootcamp Hub website,
-THEN I am presented with todays date, time and current weather forecast, Links to JOB SEARCH, TO-DO LIST and FEEDBACK. As well as Useful resources and other fun thins including cheat sheets and games.
+THEN I am presented with todays date, time and current weather forecast, inspirational quotes, TO-DO LIST and FEEDBACK. As well as Useful resources and other fun thins including cheat sheets and games.
 WHEN I click TO-DO LIST BUTTON,
 THEN I am presented with a LIST i am able to assemble to match what i need to get done.
-WHEN I click INSPIRATIONAL QUOTES BUTTON,
-THEN I am presented with different inspriational quotes each time i refresh the page.
 WHEN I click FEEDBACK BUTTON,
 THEN I am presented with a feedback form, where I can provide my feedback about the website and provide it with a star rating.
 WHEN I click each LINK under USEFUL RESOURCES,
