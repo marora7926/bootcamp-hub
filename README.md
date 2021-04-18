@@ -44,15 +44,6 @@ Project team-
 ## User Story
 
 ```
-AS A coding BOOTCAMP STUDENT
-I WANT to be able to add my own links in the useful resources
-So THAT I can easily access them when needed.
-
-I WANT to have set reminders of up coming tasks and scheduled activities
-So THAT I'm reminded and don't miss out on anything important.
-
-I WANT the links to the jobs to lead me to the job application
-So THAT I can land on a page where I'm able to easily apply for the jobs.
 
 ```
 
@@ -77,13 +68,17 @@ https://marora7926.github.io/bootcamp-hub/
 
 ![Screenshot-todo-page](./assets/images/todo-page.png)
 
+## Screenshot - Feedback page
+
+![Screenshot-feedback-page](./assets/images/feedback-page.png)
+
 ## Screenshot - Job Search page
 
 ![Screenshot-job-search-page](./assets/images/job-search-page.png)
 
-## Screenshot - Feebback page
+## Screenshot - Student blog page
 
-![Screenshot-feedback-pa](./assets/images/feedback-page.png)
+![Screenshot-Student-blog-page](./assets/images/student_blog-page.png)
 
 - - -
 © 2021 Bootcamp students. Confidential and Proprietary. All Rights Reserved
