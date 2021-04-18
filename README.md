@@ -45,7 +45,7 @@ Working in a team abled us to learn how to
 ## WHAT MAKES YOUR PROJECT STAND OUT ?
 
 ```
-
+We believe our Project-1 (Bootcamp-Hub) is set to stand out due to the clear and functional display it contains. Quality is at the core of our reputation, this website is executed to the accessibility standards and attention to detail. It also gives bootcamp users an opportunity to access the useful resources in their own time as they are presented with a concise, functional and visually pleasing site that gives them easy links to all their studying needs. Users are given several options to engage with the site such as recording their future tasks which can help them manage their workload.
 ```
 
 ## User Story
