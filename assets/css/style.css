@@ -54,7 +54,7 @@ ul {
 li {
     margin-left: 30px;
     padding: 2px;
-    list-style-type: square;
+    list-style-type: none;
     font: 30px;
     font-weight: bolder;
 }
@@ -178,6 +178,9 @@ li {
 .footer-copyright{
     padding: 10px;
     background-color: rgb(235, 224, 224);
+}
+#currentDay {
+    padding-right: 50px;
 }
   
 .footer-text{
