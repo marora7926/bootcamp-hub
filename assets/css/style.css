@@ -134,3 +134,17 @@ li {
  width: 0px;
  font-weight: bold;
 }
+
+#box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 900px) {
+    #box {
+        flex-direction: column;
+        align-content: stretch;
+    }
+}
