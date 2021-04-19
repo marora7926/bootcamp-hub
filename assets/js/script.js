@@ -38,8 +38,6 @@ var handleErrors = (response) => {
     return response;
 }
 var getCurrentConditions = (event) => {
-   //  let city = $('#city').val();
-   //  currentCity= $('#city').val();
     let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + currentCity + "&units=metric" + "&appid=" + owmAPI;
     fetch(queryURL)
     .then(handleErrors)
@@ -48,7 +46,7 @@ var getCurrentConditions = (event) => {
     })
     .then((response) => {
         let currentWeatherIcon="https://openweathermap.org/img/w/" + response.weather[0].icon + ".png";
-        let currentWeatherHTML = `Sydney's Current weather: ${response.main.temp}&#8451; <img src="${currentWeatherIcon}">`;
+        let currentWeatherHTML = `Sydney's current weather: ${Math.round(response.main.temp)}&#8451; <img src="${currentWeatherIcon}">`;
         $('#weatherForecast').html(currentWeatherHTML);
     })
 }
