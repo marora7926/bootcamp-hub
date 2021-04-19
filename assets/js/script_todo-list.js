@@ -15,7 +15,7 @@ function renderTodos() {
     var todo = todos[i];
 
     var li = document.createElement("li");
-    li.textContent = todo;
+    li.textContent = todo + "  ";
     li.setAttribute("data-index", i);
 
     // Add button element that allows clearing of the todo from the list
