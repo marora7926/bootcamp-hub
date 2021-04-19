@@ -133,6 +133,21 @@ li {
  font-weight: bold;
 }
 
+/* Making To Do List responsive*/
+#box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width: 900px) {
+    #box {
+        flex-direction: column;
+        align-content: stretch;
+    }
+}
+=======
 /* five star */
 .rate {
     float: left;
