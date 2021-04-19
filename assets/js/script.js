@@ -12,10 +12,45 @@ function displayTime (){
 // updating seconds every second
 setInterval(displayTime, 1000);
 
-// add click event --- MOHIT TO FIX THIS
-// <button class="btn btn-block btn-info">Learn more</button>
-// <a href="https://www.w3schools.com/html/default.asp" target="_blank"></a>
-// CSS : https://www.w3schools.com/css/default.asp
-// JS: https://www.w3schools.com/js/default.asp
-// jQuery: https://www.w3schools.com/jquery/default.asp
-// Bootstrap: https://www.w3schools.com/bootstrap4/default.asp
+// API for inspirational quotes
+const url = "https://api.quotable.io/random";
+function generateQuote(){
+   fetch(url)
+  .then(function(data) {
+         return data.json();
+    })
+    .then(function(data){    
+    document.getElementById("quote").innerHTML = "Inspirational quote: " + data.content;
+   })
+ .catch(function(err) {
+    console.log(err); 
+    });
+ }
+ setInterval(generateQuote() ,1000); 
+
+//  API for Weather
+var owmAPI = "d6b4fd1efef85db37e2a3f3cd63bb491";
+var currentCity = "Sydney";
+var handleErrors = (response) => {
+    if (!response.ok) {
+        throw Error(response.statusText);
+    }
+    return response;
+}
+var getCurrentConditions = (event) => {
+   //  let city = $('#city').val();
+   //  currentCity= $('#city').val();
+    let queryURL = "https://api.openweathermap.org/data/2.5/weather?q=" + currentCity + "&units=metric" + "&appid=" + owmAPI;
+    fetch(queryURL)
+    .then(handleErrors)
+    .then((response) => {
+        return response.json();
+    })
+    .then((response) => {
+        let currentWeatherIcon="https://openweathermap.org/img/w/" + response.weather[0].icon + ".png";
+        let currentWeatherHTML = `Sydney's Current weather: ${response.main.temp}&#8451; <img src="${currentWeatherIcon}">`;
+        $('#weatherForecast').html(currentWeatherHTML);
+    })
+}
+
+getCurrentConditions();
