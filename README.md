@@ -83,6 +83,15 @@ THEN I am redirected to different games I can play to practice and advance my sk
 
 https://marora7926.github.io/bootcamp-hub/
 
+## Technology used
+1. HTML
+2. CSS
+3. JavaScript
+4. Moment js
+5. Bootstrap
+6. Weather API
+7. Inspiration Quote API
+
 ## Wireframe - Bootcamp-Hub
 
 ![Bootcamp Hub](./assets/images/wireframe-bootcamp-hub.png)
